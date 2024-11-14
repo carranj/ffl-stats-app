@@ -1,0 +1,19 @@
+<nav class="bg-[#16191C] sticky top-0 w-20 flex flex-col items-center justify-between py-4 h-full sidebar">
+  
+  <div routerLink="/home" routerLinkActive="active" class="text-white text-2xl mb-4">
+    <!-- Add a logo or app icon here -->
+    <i class="fas fa-home"></i>
+  </div>
+  <!-- Navigation Items -->
+  <ul class="flex flex-col">
+    <li routerLink="/home" routerLinkActive="active">
+      <i class="fas fa-dashboard text-xl hover:text-gray-400"></i>
+    </li>
+    <li routerLink="/statistics" routerLinkActive="active" class="text-xl hover:text-gray-400">
+        <i class="fas fa-chart-pie"></i>
+    </li>
+    <li routerLink="/user-profile" routerLinkActive="active" class="text-xl hover:text-gray-400">
+      <i class="fas fa-users"></i>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,9 @@
+<ng-container *ngIf="chartOptions">
+    <highcharts-chart
+        id="container"
+        [Highcharts]="highcharts"
+        [options]="chartOptions"
+        [title]="title"
+    ></highcharts-chart>
+  </ng-container>
+  
